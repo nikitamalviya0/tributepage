@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #282828;
+  padding: 0 40px ;
+
+
+}
+
+.header a {
+  float: left;
+  margin: 20px;
+  margin-left: 60px;
+  color: white;
+  text-align: center;
+  font-size:25px; 
+  
+}
+
+ .logo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #03a9f4;
+  background-color: #282828;
+  height: 20px;
+  
+  
+}
+.tribute{
+  font-size: medium;
+  color: white;
+  margin-top: 40px;
+}
+
+.header a:hover {
+  
+  text-decoration: underline;
+  color: #005171;
+  transition: all ease-in 0.2s;
+}
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .header a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.div{
+  
+  width: 100%;
+  height: 450px;
+  background-color: rgb(13, 26, 26); 
+
+}
+
+.div img{
+  width: 400px;
+  top: 20px;
+  margin-top: 30px;
+  margin-right: 45px;
+  height: 400px;
+  float: right;
+  border-radius: 600px;
+  border: 2px solid #fff;
+
+}
+  .pre{
+  font-size: 17px;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right:470px ;
+  letter-spacing: 3px;
+  font-family:' raleway',sans-serif;
+}
+
+
+
+    .div:hover{
+      background-color: rgb(17, 78, 70);
+      }
+    
+      .div1{
+  
+        width: 100%;
+        height: 600px;
+        background-color: rgb(13, 26, 26); 
+      
+      }
+      
+      .div1 img{
+        width: 400px;
+        top: 20px;
+        position: absolute;
+        top: 125%;
+        left: 20px;
+        height: 400px;
+        float: left;
+        border: 4px solid #fff;
+        border-radius: 600px;
+      
+      }
+        .pre1{
+        font-size: 17px;
+        color: #fff;
+        margin-left: 450px;
+        margin-right:2px ;
+        letter-spacing: 3px;
+        font-family:' raleway',sans-serif;
+      }
+      .div1:hover{
+        background-color: rgb(18, 31, 51);
+        }
+      .log{
+        font-size: 35px;
+        color:white;
+        text-decoration:underline;
+        padding: 0 20px;
+      
+      }
+      
+      .div2{
+        
+        width: 100%;
+        height: 720px;
+        background-color: rgb(13, 26, 26); 
+        }
+        .div2:hover{
+          background-color: rgb(151, 45, 94);
+        }
+          
+        .div2 img{
+          width: 400px;
+          margin-top: 100px;
+          margin-right: 45px;
+          height: 400px;
+          float: right;
+          border-radius: 600px;
+          border: 2px solid #fff;
+          
+        
+        }       
+          .pre2{
+            font-size: 17px;
+            color: #fff;
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-right:200px ;
+            letter-spacing: 3px;
+            font-family:' raleway',sans-serif;
+          }
+
+        .div3{
+         
+              width: 100%;
+              height: 700px;
+              background-color: rgb(13, 26, 26); 
+          }
+          .div3:hover{
+            background-color: rgb(17, 78, 70);
+            }
+            
+            .div3 img{
+              width: 420px;
+              
+              margin-top: 65px;
+              margin-right: 105px;
+              height: 420px;
+              float: left;
+              border-radius: 600px;
+              border: 3px solid #fff;
+            
+            }
+
+            .pre3{
+              font-size: 17px;
+              color: #fff;
+              margin-left: 200px;
+              margin-right:20px ;
+              letter-spacing: 3px;
+              font-family:' raleway',sans-serif;
+            }
+            
+          .div4{
+           
+            width: 100%;
+            height: 500px;
+            background-color: rgb(13, 26, 26); 
+            }
+            .div4:hover{
+              background-color: rgb(134, 96, 179);
+              }
+             
+              .div4 img{
+                width: 400px;
+                top: 20px;
+                margin-top: 30px;
+                margin-right: 45px;
+                height: 400px;
+                float: right;
+                border-radius: 600px;
+                border: 2px solid #fff;
+              
+              }
+                .pre4{
+                font-size: 17px;
+                color: #fff;
+                margin-top: 30px;
+                margin-left: 20px;
+                margin-right:470px ;
+                letter-spacing: 3px;
+                font-family:' raleway',sans-serif;
+              }
+              
+              
